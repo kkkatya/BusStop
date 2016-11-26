@@ -1,6 +1,5 @@
-.navbar-default{
-	background-color: #fff;
-	border: none;
+.navbar-inverse{
+	border-radius: 0;
 }
 
 .logo{
@@ -10,25 +9,30 @@
 	text-align: center;
 	text-decoration: none;
 	font-size: 2em;
-	color: #000;
+	color: #fff;
 }
 
 .logo:hover{
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
 
 section{
 	margin-bottom: 30px;
 }
 
-
-#next-bus{
-	padding-left: 10%;
+#map{
+	width: 100%;
 }
 
-#next-bus li{
-	list-style: none;
+#next-bus{
+	padding: 20px;
+	-webkit-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+	-moz-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+	box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+}
+
+#next-bus table{
 	font-size: 1.5em;
 }
 
