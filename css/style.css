@@ -15,6 +15,8 @@ body{
 	text-decoration: none;
 	font-size: 2em;
 	color: #fff;
+	font-family: 'Kano';
+	letter-spacing: 2px;
 }
 
 .logo:hover{
@@ -75,8 +77,39 @@ td{
 	padding: 0;
 }
 
+<<<<<<< HEAD
+.places {
+	position: relative;
+	height: 80vh;
+}
+
+.footertext {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.footertext p {
+	font-family: 'Nexa';
+	font-size: 14px;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(../fonts/NexaLight.otf);
+}
+
+@font-face {
+    font-family: 'Kano';
+    src: url(../fonts/Kano.otf);
+=======
 .time{
 	font-size: 0.8em;
 	color: #778899;
 	text-align: right;
+>>>>>>> 67cf5d0e3b823016af19f84f227399d2aa13de8b
 }
