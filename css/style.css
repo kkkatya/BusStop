@@ -27,6 +27,12 @@ section{
 	width: 100%;
 }
 
+.time{
+	font-size: 0.8em;
+	color: #778899;
+	text-align: right;
+}
+
 #next-bus{
 	padding: 20px;
 	-webkit-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
@@ -55,7 +61,6 @@ td{
 	padding: 0;
 }
 
-<<<<<<< HEAD
 .places {
 	position: relative;
 	height: 80vh;
@@ -84,10 +89,4 @@ td{
 @font-face {
     font-family: 'Kano';
     src: url(../fonts/Kano.otf);
-=======
-.time{
-	font-size: 0.8em;
-	color: #778899;
-	text-align: right;
->>>>>>> 67cf5d0e3b823016af19f84f227399d2aa13de8b
 }
