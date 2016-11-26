@@ -13,24 +13,42 @@
 <body>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand">BusStop</a>
+			<a href="#" class="logo">BusStop</a>
 		</div>
 	</nav>
 
-	<!--Container-->
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8"><img src="img/map.jpg"></div>
-			<div class="col-lg-4" id="next-bus">
-				<h2>Next buses:</h2>
-				<ul>
-					<li>Bus1</li>
-					<li>Bus2</li>
-					<li>Bus3</li>
-				</ul>
+	
+	<section id="map">
+		<!--Container-->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8"><img id="map" src="img/map.jpg"></div>
+				<div class="col-lg-4" id="next-bus">
+					<h2>Next buses:</h2>
+					<ul>
+						<li>Bus1</li>
+						<li>Bus2</li>
+						<li>Bus3</li>
+					</ul>
+				</div>
 			</div>
+		</div><!--end Container-->
+	</section>
+
+	<section class="places">
+		<div class="container">
+			<h2 class="heading">Places near</h2>
+			<br>
+			<div class="col-lg-3"><img class="place-img" src="img/places/1.jpg"></div>
+			<div class="col-lg-3"><img class="place-img" src="img/places/2.jpg"></div>
+			<div class="col-lg-3"><img class="place-img" src="img/places/3.jpg"></div>
+			<div class="col-lg-3"><img class="place-img" src="img/places/4.jpg"></div>
+			<div class="col-lg-3"><img class="place-img" src="img/places/2.jpg"></div>
+			<div class="col-lg-3"><img class="place-img" src="img/places/3.jpg"></div>
+			<div class="col-lg-3"><img class="place-img" src="img/places/4.jpg"></div>
+			<div class="col-lg-3"><img  class="place-img" src="img/places/1.jpg"></div>
 		</div>
-	</div><!--end Container-->
+	</section>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
