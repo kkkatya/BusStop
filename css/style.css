@@ -1,5 +1,10 @@
+body{
+	background-image: url("../img/bg3.png");
+}
+
 .navbar-inverse{
 	border-radius: 0;
+	border:none;
 }
 
 .logo{
@@ -23,8 +28,16 @@ section{
 	margin-bottom: 30px;
 }
 
-#map{
+.container{
+	padding-bottom: 20px;
+}
+
+#map-img{
 	width: 100%;
+
+	-webkit-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+	-moz-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+	box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
 }
 
 .time{
@@ -38,6 +51,7 @@ section{
 	-webkit-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
 	-moz-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
 	box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+	background-color: rgba(255,255,255,0.5);
 }
 
 #next-bus table{
@@ -51,6 +65,14 @@ td{
 
 .heading{
 	text-align: center;
+}
+
+.white{
+	background-color: rgba(255,255,255,0.5);
+	-webkit-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+	-moz-box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+	box-shadow: 4px 4px 22px -3px rgba(0,0,0,0.42);
+
 }
 
 .place-img{
@@ -67,8 +89,6 @@ td{
 }
 
 .footertext {
-	position: absolute;
-	bottom: 0;
 	left: 0;
 	right: 0;
 	text-align: center;
