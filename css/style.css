@@ -34,6 +34,11 @@ section{
 
 #next-bus table{
 	font-size: 1.5em;
+	width: 100%;
+}
+
+td{
+	width: 50%;
 }
 
 .heading{
@@ -46,4 +51,10 @@ section{
 
 .col-lg-3{
 	padding: 0;
+}
+
+.time{
+	font-size: 0.8em;
+	color: #778899;
+	text-align: right;
 }
